@@ -1,0 +1,35 @@
+.navbar {
+  padding: 12px;
+  width: 100%;
+  height: max-content;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: opacity;
+}
+
+.keep {
+  position: fixed !important;
+}
+.navbar h3 {
+  margin: 0;
+}
+
+.navbar button {
+  height: max-content;
+}
+
+svg {
+  width: 24px;
+  height: auto;
+}
+
+.navbar svg:hover {
+  width: 28px;
+  height: auto;
+}
+
+.navbar-black {
+  background-color: black;
+}

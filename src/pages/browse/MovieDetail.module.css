@@ -1,0 +1,34 @@
+.movieDetail {
+  padding-top: 20px;
+  color: white;
+  display: flex;
+  background-color: rgb(17, 17, 17);
+}
+
+.detailContent {
+  width: 50%;
+}
+
+.detailTitle {
+  border-bottom: 2px solid white;
+}
+
+.detailTitle > h2 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.detailContent > p:nth-child(2) {
+  margin-bottom: -3px;
+}
+
+.detailVideo {
+  width: 200px;
+  padding: 10px;
+}
+
+.detailImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}

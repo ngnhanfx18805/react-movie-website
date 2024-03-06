@@ -1,0 +1,19 @@
+.banner {
+  padding: 62px 12px;
+  color: white;
+}
+.banner p {
+  width: 300px;
+}
+.button :last-child {
+  margin-left: 12px;
+}
+
+.button button {
+  background-color: rgb(185, 185, 185);
+  border-radius: 5px;
+  padding: 6px 18px;
+  border: none;
+  color: white;
+  opacity: 0.5;
+}

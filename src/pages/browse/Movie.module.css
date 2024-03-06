@@ -1,0 +1,25 @@
+.movie {
+  padding: 12px;
+  color: white;
+  overflow-x: auto;
+}
+.scroll {
+  overflow-x: auto;
+}
+.detailVideo {
+  padding-left: 10px;
+  width: 50%;
+  height: auto;
+  display: flex;
+}
+
+.detailVideo img {
+  margin-left: 5px;
+  transition-duration: 0.2s;
+}
+
+.detailVideo img:hover {
+  z-index: 2;
+  transform: scale(1.2);
+  cursor: pointer;
+}
